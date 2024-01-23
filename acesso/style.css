@@ -1,0 +1,137 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .header {
+    text-align: center; /* Centraliza horizontalmente o conteúdo do cabeçalho */
+  }
+ 
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #3498db;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  /* style.css */
+
+/* Adicionando estilos para a barra de seleção personalizada */
+.styled-select {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .styled-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .styled-select:after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  .styled-select select:focus {
+    outline: none;
+  }
+  
+
+.logo {
+    display: block;
+    margin: 0 auto; /* Isso centraliza a imagem horizontalmente */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: 80px; /* Mantém a proporção original da imagem */
+    margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
+  }
+  /* style.css */
+
+body {
+    margin: 0; /* Remova as margens padrão do corpo da página */
+  }
+  
+  .header {
+    text-align: center; /* Centraliza horizontalmente o conteúdo do cabeçalho */
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto; /* Isso centraliza a imagem horizontalmente */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: 80px; /* Mantém a proporção original da imagem */
+    margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
+  }
+  
+  .cadastro-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+  }
+  
+  /* Restante do seu estilo CSS existente */
+  
+  

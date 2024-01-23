@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Escola - Login</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <div class="login-container">
+    <img src="logo.png" alt="Logo do Sistema Escola" class="logo">
+    <h2>Sistema Escola - Login</h2>
+    <form>
+      <label for="username">Usuário:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Entrar</button>
+    </form>
+
+    <p class="forgot-password" onclick="forgotPassword()">Esqueceu a senha?</p>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

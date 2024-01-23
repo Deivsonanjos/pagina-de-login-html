@@ -1,0 +1,41 @@
+<!-- cadastro-aluno.html -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Escola</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cadastro-container">
+    <img src="logo.png" alt="Logo do Sistema Escola" class="logo">
+    <h2 id="mensagemSaudacao">Bom dia, Usuário</h2>
+    
+    <form id="cadastroAlunoForm">
+      <label for="tipoDocumento">Tipo de Documento:</label>
+      <div class="styled-select">
+        <select id="tipoDocumento" name="tipoDocumento">
+          <option value="historicoEscolar">Histórico Escolar</option>
+          <option value="atestado">Atestado</option>
+          <option value="fichaMatricula">Ficha de Matrícula</option>
+          <option value="fichaSaude">Ficha de Saúde</option>
+          <option value="relatoriosDesenvolvimento">Relatórios de Desenvolvimento</option>
+        </select>
+      </div>
+
+      <button type="submit">Gerar Documento</button>
+    </form>
+
+    <p><a href="../login/index.html">Voltar para a página principal</a></p>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Restante do seu script.js
+  </script>
+
+</body>
+</html>
